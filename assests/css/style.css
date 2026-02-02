@@ -111,3 +111,83 @@
     border-color: wheat;
     color: var(--white-color);
 }
+
+
+/* we provide section */
+.feature-section {
+    background-image: url(../images/we-provide-background.png);
+    background-color: #FAF8F4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    font-family: var(--font-Poppins);
+    font-style: var(--font-semibold);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    color: var(--heading-dark);
+    margin-top: 5%;
+}
+
+.feature-card {
+    background-color: transparent;
+}
+
+/* .icon-img { */
+    /* Assumes your icons are colored appropriately, otherwise use CSS filter: sepia(1) saturate(10) hue-rotate(180deg); etc. */
+/* } */
+
+.card-heading {
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-size: 24px;
+    font-style: var(--font-semibold);
+    line-height: 34px;
+    letter-spacing: -2%;
+    color: var(--heading-dark);
+    width: 80%;
+}
+
+.card-description {
+    font-family: var(--font-Inter);
+    font-style: var(--font-regular);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1%;
+    color: var(--heading-dark);
+    margin-bottom: 1.5rem;
+    margin-top: 5%;
+    opacity: 50%;
+    width: 95%;
+}
+
+.read-more-link {
+    color: var(--primary-light-peach);
+    font-family: var(--font-Inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 1%;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.read-more-link:hover {
+    color: var(--dark-blue);
+}
+
+.arrow-right {
+    margin-left: 5px;
+    transition: margin-left 0.3s;
+}
+
+.read-more-link:hover .arrow-right {
+    margin-left: 10px;
+}
+
+
