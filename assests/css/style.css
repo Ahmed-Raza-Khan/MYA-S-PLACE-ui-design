@@ -718,3 +718,105 @@
     height: 460px;
     object-fit: cover;
 }
+
+
+/* footer section */
+.bg-pink-footer {
+    background: linear-gradient(94.92deg, #f26440, #ef7d60);
+}
+
+.logo-image-footer{
+    margin-right: 10px;
+}
+
+.footer-text-logo{
+    font-family: var(--font-Raleway);
+    font-weight: 600;
+    font-style: var(--font-semibold);
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.text-logo-dummy{
+    font-family: var(--font-Poppins);
+    font-weight: 400;
+    font-style: var(--font-regular);
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
+
+.address-footer{
+    font-family: var(--font-Inter);
+    font-weight: 500;
+    font-style: var(--font-medium);
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white-color);
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.address-foot{
+    font-family: var(--font-Inter);
+    font-weight: 400;
+    font-style: var(--font-regular);
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    color: var(--white-color);
+}
+
+.links-footer-heading{
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-style: var(--font-semibold);
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: var(--white-color);
+    margin-left: 40px;
+}
+
+ul li a {
+    /* color: rgba(255, 255, 255, 0.7); */
+    font-family: var(--font-inter);
+    font-style: var(--font-regular);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: var(--white-color);
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+footer{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.horizontal-footer-line{
+    color: var(--white-color);
+    width: 100%;
+}
+
+.copyright-text-footer{
+    font-family: var(--font-inter);
+    font-style: var(--font-semibold);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
