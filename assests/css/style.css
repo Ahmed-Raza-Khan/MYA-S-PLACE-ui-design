@@ -13,7 +13,8 @@
     --gray-color: #78756E;
     --font-regular: 'Regular';
     --font-semibold: 'SemiBold';
-    --font-medium: 'Medium'
+    --font-medium: 'Medium';
+    --font-bold: 'Bold';
 }
 
 /* navbar section */
@@ -191,3 +192,98 @@
 }
 
 
+/* our product section */
+.product-section {
+    margin-top: 5%;
+}
+
+.section-title {
+    font-family: var(--font-Poppins);
+    font-weight: 600;
+    font-style: var(--font-semibold);
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    color: var(--heading-dark);
+}
+
+.arrow-icon {
+    cursor: pointer;
+}
+
+.arrow-icon.disabled-arrow {
+    cursor: pointer;
+}
+
+.product-card {
+    border: none;
+    border-radius: 0;
+    text-align: left;
+}
+
+.img-container {
+    background-color: #F8F4F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.card-img-top {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 1rem 0 0 0;
+}
+
+.card-category {
+    font-family: var(--font-Raleway);
+    font-size: 14px;
+    font-style: var(--font-regular);
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1%;
+    text-transform: capitalize;
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+
+.card-title {
+    font-family: var(--font-Raleway);
+    font-size: 20px;
+    font-style: var(--font-semibold);
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1%;
+    color: var(--dark-blue);
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-family: var(--font-Raleway);
+    font-size: 12px;
+    font-style: var(--font-regular);
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: var(--dark-blue);
+    margin-bottom: 8px;
+}
+
+.card-price {
+    font-family: var(--font-Raleway);
+    font-size: 18px;
+    font-style: var(--font-bold);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1%;
+    color: var(--primary-light-peach);
+    margin-bottom: 0;
+}
