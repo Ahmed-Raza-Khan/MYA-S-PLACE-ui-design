@@ -58,14 +58,56 @@
     display: none;
 }
 
-.cart-badge {
-    position: absolute;
-    top: -5px;
-    right: -10px;
-    background-color: #dc3545;
-    color: white;
-    border-radius: 50%;
-    padding: 1px 6px;
-    font-size: 0.75rem;
-    line-height: 1;
+
+/* hero section */
+.hero-section {
+    background-image: url('../images/hero-background.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 100vh;  */
+    height: 840px;
+}
+
+.explore-text {
+    font-family: var(--font-Inter);
+    font-weight: 500;
+    font-size: 18px;
+    font-style: var(--font-medium);
+    line-height: 30px;
+    letter-spacing: 1%;
+    text-transform: uppercase;    
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+    margin-top: -50%;
+}
+
+.main-heading {
+    font-family: var(--font-Poppins);
+    font-size: 88px;
+    font-weight: 600;
+    font-style: var(--font-semibold);
+    line-height: 94px;
+    letter-spacing: -3%;
+    color: var(--heading-dark);
+    width: 911px;
+}
+
+.custom-btn {
+    font-family: var(--font-Inter);
+    font-style: var(--font-semibold);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -1%;
+    color: var(--white-color);
+    background-color: var(--primary-light-peach);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0;
+}
+
+.custom-btn:hover {
+    background-color: var(--dark-blue);
+    border-color: wheat;
+    color: var(--white-color);
 }
