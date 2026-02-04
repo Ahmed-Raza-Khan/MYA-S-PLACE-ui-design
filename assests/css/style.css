@@ -1251,9 +1251,8 @@
 }
 
 
-
 /* what our client say section */
-.section-title {
+.client-section-title {
     font-family: var(--font-Poppins);
     font-size: 60px;
     font-style: var(--font-semibold);
@@ -1263,13 +1262,31 @@
     color: var(--heading-dark);
 }
 
-.arrow-icon {
+.client-arrow-icon-left {
     cursor: pointer;
 }
 
-.testimonial-card {
+.client-arrow-icon-right {
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+.testimonial-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.testimonial-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.client-testimonial-card {
     background-color: var(--card-color);
     border-radius: 16px;
+    flex-shrink: 0;
 }
 
 .card-width-main {
@@ -1292,7 +1309,7 @@
     margin-bottom: 1rem;
 }
 
-.card-title {
+.client-card-title {
     font-family: var(--font-Poppins);
     font-size: 24px;
     font-style: var(--font-semibold);
@@ -1303,7 +1320,7 @@
     width: 90%;
 }
 
-.card-text {
+.client-card-text {
     font-family: var(--font-Inter);
     font-size: 18px;
     font-style: var(--font-regular);
@@ -1325,7 +1342,7 @@
     opacity: 70%;
 }
 
-.large-number {
+.client-large-number {
     font-family: var(--font-Raleway);
     font-size: 288px;
     font-style: var(--font-bold);
@@ -1338,6 +1355,118 @@
     right: 10px;
     z-index: 0;
     opacity: 10%;
+}
+
+@media (max-width: 425px) {
+    .client-section-title {
+        font-size: 36px;
+        line-height: -1%;
+        margin-top: -50px;
+    }
+    
+    .client-navigation-arrows img {
+        width: 24px;
+        height: 24px;
+        margin-right: -5%;
+        margin-top: -40px;
+    }
+
+    .card-width-main, .card-width-partial {
+        width: 80vw;
+    }
+
+    .client-img {
+        height: 250px;
+        width: 100%;
+        display: block;
+        object-position: top;
+        border-radius: 8px !important;
+        margin-bottom: 10px;
+    }
+
+    .client-card-title {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .client-card-text {
+        font-size: 14px;
+        line-height: 25px;
+        width: 90%;
+    }
+
+    .client-name{
+        font-size: 15px;
+    }
+
+    .client-large-number {
+        font-size: 120px;
+        bottom: -70px;
+        right: 0;
+    }
+
+    .quote-icon {
+        margin-top: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .client-section-title {
+        font-size: 24px;
+        line-height: -1%;
+        margin-top: -50px;
+    }
+    
+    .client-navigation-arrows img {
+        width: 22px;
+        height: 22px;
+        margin-right: -5%;
+        margin-top: -40px;
+    }
+
+    .card-width-main, .card-width-partial {
+        width: 70vw;
+    }
+
+    .client-img {
+        height: 250px;
+        width: 100%;
+        display: block;
+        object-position: top;
+        border-radius: 8px !important;
+        margin-bottom: 10px;
+    }
+
+    .client-card-title {
+        font-size: 14px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    .client-card-text {
+        font-size: 12px;
+        line-height: 21px;
+        width: 100%;
+    }
+
+    .client-name{
+        font-size: 12px;
+    }
+
+    .client-large-number {
+        font-size: 120px;
+        bottom: -60px;
+        right: 0;
+    }
+
+    .quote-icon {
+        margin-top: 20px;
+        width: 35px;
+        height: 35px;
+    }
 }
 
 

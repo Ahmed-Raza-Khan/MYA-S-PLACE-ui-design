@@ -391,54 +391,55 @@
                     </div>
                 </div>
             </section>
-
             
-            <section class="py-5 bg-white testimonials-section mt-5">
-                <div class="container-fluid ps-5">
+            <section class="py-5 testimonials-section mt-5">
+                <div class="container-fluid ps-5 ps-lg-5">
                     
-                    <div class="d-flex justify-content-between align-items-center mb-5">
-                        <h1 class="section-title mb-0">What Our Clients Say</h1>
-                        <div class="navigation-arrows d-flex gap-3 pe-5">
-                            <img src="images/our-product-left-arrow.svg" alt="Previous" class="arrow-icon disabled-arrow" width="34" height="34">
-                            <img src="images/ArrowRight.svg" alt="Next" class="arrow-icon" width="34" height="34">
+                    <div class="d-flex justify-content-between align-items-center mb-5 gap-3">
+                        <h1 class="client-section-title mb-0">What Our Clients Say</h1>
+                        <div class="client-navigation-arrows d-flex gap-3 pe-5 pe-lg-5">
+                            <img src="images/our-product-left-arrow.svg" alt="Previous" id="prev-btn" class="client-arrow-icon-left" width="32" height="32">
+                            <img src="images/our-product-left-arrow.svg" alt="Next" id="next-btn" class="client-arrow-icon-right" width="32" height="32">
                         </div>
                     </div>
-                    
-                    <div class="d-flex overflow-hidden gap-5">
-                        <div class="testimonial-card p-4 shadow-sm flex-shrink-0 card-width-main">
+
+                    <div class="testimonial-slider d-flex overflow-hidden gap-5 gap-lg-5" id="slider">
+                        <div class="client-testimonial-card p-4 shadow-sm flex-shrink-0 card-width-main">
                             <div class="row g-0">
-                                <div class="col-md-5">
+                                <div class="col-md-5 col-12">
                                     <img src="images/client-1.png" class="img-fluid client-img" alt="Client 1">
                                 </div>
 
-                                <div class="col-md-7 position-relative">
-                                    <div class="card-body">
+                                <div class="col-md-7 col-12 position-relative">
+                                    <div class="client-card-body pt-md-0">
                                         <img src="images/double-qoute-client.svg" alt="Quote" class="quote-icon" width="34" height="34">
                                 
-                                        <h5 class="card-title mt-2">Here's your dummy placeholder content ready for initial SEO indexing.</h5>
-                                        <p class="card-text">Here’s your dummy placeholder content ready for initial SEO indexing. You can later replace it with optimized. Here’s your dummy placeholder content ready for initial SEO indexing.</p>
+                                        <h5 class="client-card-title mt-2">Here's your dummy placeholder content ready for initial SEO indexing.</h5>
+                                        <p class="client-card-text">Here’s your dummy placeholder content ready for initial SEO indexing. You can later replace it with optimized. Here’s your dummy placeholder content ready for initial SEO indexing.</p>
                                 
                                         <p class="client-name mt-5">Roy Rakabuming</p>
                                     </div>
-                                    <div class="large-number">1</div>
+                                    <div class="client-large-number">1</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="testimonial-card p-4 shadow-sm flex-shrink-0 card-width-partial">
+                        <div class="client-testimonial-card p-4 shadow-sm flex-shrink-0 card-width-partial">
                             <div class="row g-0">
-                                <div class="col-md-5">
+                                <div class="col-md-5 col-12">
                                     <img src="images/client2.png" class="img-fluid client-img rounded" alt="Client 2">
                                 </div>
-
-                                <div class="col-md-7 position-relative">
-                                    <div class="card-body">
+                                
+                                <div class="col-md-7 col-12 position-relative">
+                                    <div class="client-card-body pt-md-0">
                                         <img src="images/double-qoute-client.svg" alt="Quote" class="quote-icon" width="30">
                                         
-                                        <h5 class="card-title mt-2">Here's your dummy placeholder content ready for initial SEO indexing.</h5>
-                                        <p class="client-name mt-3">Dafit Bekan.</p>
+                                        <h5 class="client-card-title mt-2">Here’s your dummy placeholder content ready for initial SEO indexing.</h5>
+                                        <p class="client-card-text">Here’s your dummy placeholder content ready for initial SEO indexing. You can later replace it with optimized. Here’s your dummy placeholder content ready for initial SEO indexing.</p>
+                                        
+                                        <p class="client-name mt-5">Dafit Bekam</p>
                                     </div>
-                                    <div class="large-number">2</div>
+                                    <div class="client-large-number">2</div>
                                 </div>
                             </div>
                         </div>
@@ -580,6 +581,7 @@
 
         <script src="js/our-products-slider.js"></script>
         <script src="js/what-we-provide-slider.js"></script>
+        <script src="js/client-card-testimonal.js"></script>
         
     </body>
 </html>
