@@ -550,14 +550,13 @@
     color: var(--heading-dark);
 }
 
-.our-product-arrow-icon {
+.our-product-arrow-icon-left {
     cursor: pointer;
 }
 
-.our-product-arrow-icon.disabled-arrow {
+.our-product-arrow-icon-right {
     cursor: pointer;
-    opacity: 0.3;
-    pointer-events: none;
+    transform: scaleX(-1);
 }
 
 .our-product-slider-wrapper {
@@ -746,7 +745,7 @@
     background-color: #F1F4F3;
 }
 
-.main-heading {
+.where-compfort-main-heading {
     font-family: var(--font-Poppins);
     font-size: 60px;
     font-style: var(--font-semibold);
@@ -756,7 +755,7 @@
     color: var(--heading-dark);
 }
 
-.description-text {
+.where-compfort-description-text {
     font-family: var(--font-Inter);
     font-size: 24px;
     font-style: var(--font-regular);
@@ -767,7 +766,7 @@
     width: 80%;
 }
 
-.description-text-2 {
+.where-compfort-description-text-2 {
     font-family: var(--font-Inter);
     font-size: 20px;
     font-style: var(--font-regular);
@@ -799,18 +798,90 @@
     color: var(--white-color);
 }
 
-.small-image-height {
+.where-compfort-small-image-height {
     height: 260px;
-    width: 270px; 
+    width: 300px; 
     object-fit: cover;
     border-radius: 8px;
 }
 
-.large-image-height {
-    height: 440px;
-    width: 270px; 
+.where-compfort-large-image-height {
+    height: 500px;
+    width: 400px; 
     object-fit: cover;
     border-radius: 8px;
+}
+
+@media (max-width: 425px) {
+    .where-compfort-main-heading {
+        font-size: 37px;
+        line-height: 35px;
+        margin-top: 5%;
+    }
+
+    .where-compfort-description-text, 
+    .where-compfort-description-text-2 {
+        font-size: 15px;
+        line-height: 20px;
+        width: 70%;
+    }
+
+    .where-compfort-small-image-height {
+        height: 250px; 
+        width: 100%;
+    }
+
+    .where-compfort-large-image-height {
+        height: 250px; 
+        width: 100%;
+    }
+    
+    .custom-btn-2-we-care {
+        width: 60%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    span img{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .where-compfort-main-heading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 5%;
+    }
+
+    .where-compfort-description-text, 
+    .where-compfort-description-text-2 {
+        font-size: 14px;
+        line-height: 20px;
+        width: 80%;
+    }
+
+    .where-compfort-small-image-height {
+        height: 200px; 
+        width: 100%;
+    }
+
+    .where-compfort-large-image-height {
+        height: 250px; 
+        width: 100%;
+    }
+    
+    .custom-btn-2-we-care {
+        width: 65%;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    span img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
