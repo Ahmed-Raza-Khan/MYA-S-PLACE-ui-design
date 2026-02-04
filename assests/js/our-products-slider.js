@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const slider = document.querySelector(".product-slider");
-    const slides = Array.from(document.querySelectorAll(".product-slide"));
-    const prevBtn = document.querySelector(".navigation-arrows img:first-child");
-    const nextBtn = document.querySelector(".navigation-arrows img:last-child");
+    const slider = document.querySelector(".our-product-slider");
+    const slides = Array.from(document.querySelectorAll(".our-product-slide"));
+    const prevBtn = document.querySelector(".our-product-navigation-arrows img:first-child");
+    const nextBtn = document.querySelector(".our-product-navigation-arrows img:last-child");
 
     const slideWidth = slides[0].offsetWidth + 16;
     const visibleSlides = Math.round(slider.offsetWidth / slideWidth);
