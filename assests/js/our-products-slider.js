@@ -66,8 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const slider = document.querySelector(".best-product-slider");
     const slides = Array.from(slider.children);
-    const prevBtn = document.querySelector(".best-arrow-icon:first-child");
-    const nextBtn = document.querySelector(".best-arrow-icon:last-child");
+    const prevBtn = document.querySelector(".best-navigation-arrows img:first-child");
+    const nextBtn = document.querySelector(".best-navigation-arrows img:last-child");
 
     const gap = 16;
     const slideWidth = slides[0].offsetWidth + gap;
